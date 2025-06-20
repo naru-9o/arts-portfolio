@@ -1,0 +1,392 @@
+@media (min-width: 720px) and (max-width: 1024px) {
+
+    #nav #nav-left h2 {
+        font-size: 9vw;
+        width: fit-content;
+        line-height: 10vw;
+    }
+
+    #nav #nav-right #nav-icons {
+        display: none;
+    }
+
+     #nav #nav-right #nav-links i {
+        font-size: 25px;
+    }
+
+    .page2 .upper {
+        height: 30vh;
+    }
+
+    .page2 .upper h1 {
+        font-size: 8vw;
+    }
+
+    .page2 .upper h2 {
+        font-size: 3vw;
+        margin-top: 3vw;
+        margin-bottom: -4vw;
+    }
+
+    .page3 .upper {
+        height: 30vh;
+    }
+
+    .page3 .upper h1 {
+        font-size: 8vw;
+    }
+
+    .page3 .upper h2 {
+        font-size: 3vw;
+        margin-top: 3vw;
+        margin-bottom: -4vw;
+    }
+
+
+    .page3 .blog1 {
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .page3 .blog1 .blogs {
+        width: 100%;
+        margin-left: 5vw;
+    }
+
+    .page3 .blog1 .txt {
+        width: 100%;
+        margin-top: 15vw;
+        justify-content: flex-start;
+    }
+
+    .page3 .blog1 .txt h1 {
+        font-size: 8vw;
+    }
+
+    .page3 .blog1 .txt h3 {
+        width: fit-content;
+        font-size: 2.8vw;
+        font-weight: 400;
+        line-height: 4.2vw;
+    }
+
+    .page3 .blog2 {
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .page3 .blog2 .blogs {
+        width: 100%;
+        margin-left: 5vw;
+    }
+
+    .page3 .blog2 .txt {
+        width: 100%;
+        margin-top: 5vw;
+        justify-content: flex-start;
+    }
+
+    .page3 .blog2 .txt h1 {
+        font-size: 8vw;
+    }
+
+    .page3 .blog2 .txt h3 {
+        width: fit-content;
+        font-size: 2.8vw;
+        font-weight: 400;
+        line-height: 4.2vw;
+    }
+
+    .page3 .blog3 {
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .page3 .blog3 .blogs {
+        width: 100%;
+        margin-left: 5vw;
+    }
+
+    .page3 .blog3 .txt {
+        width: 100%;
+        margin-top: 15vw;
+        justify-content: flex-start;
+    }
+
+    .page3 .blog3 .txt h1 {
+        font-size: 8vw;
+    }
+
+    .page3 .blog3 .txt h3 {
+        width: fit-content;
+        font-size: 2.8vw;
+        font-weight: 400;
+        line-height: 4.2vw;
+    }
+
+    .page4 .upper {
+        height: 40vh;
+    }
+
+    .page4 .upper h1 {
+        font-size: 8vw;
+    }
+
+    .page4 .upper h2 {
+        font-size: 3vw;
+        margin-top: 3vw;
+        margin-bottom: -4vw;
+    }
+
+    .page4 .down {
+        height: 130vh;
+        flex-direction: column;
+    }
+
+    .page4 .down .down-left {
+        width: 100%;
+        margin-top: 2vw;
+    }
+
+    .page4 .down .down-right {
+        width: 100%;
+    }
+
+     .page4 .down .down-right .txt {
+        height: 30%;
+        margin-top: 10vw;
+     }
+
+    .page4 .down .down-right .txt h2 {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .page4 .down .down-right .txt h3 {
+        font-size: 3.2vw;
+        text-align: center;
+        width: fit-content;
+    }
+
+     .page4 .end1 {
+        height: 15vh;
+    }
+
+    .page4 .end1 .txt-up h3 {
+        font-size: 3vw;
+    }
+
+    .page4 .end1 .txt-down h3 {
+        font-size: 2.8vw;
+    }
+
+
+}
+
+
+
+
+
+
+@media (max-width: 480px){
+    
+    #nav {
+        height: 15vh;
+    }
+    
+    #nav #nav-left h2 {
+        font-size: 12vw;
+        line-height: 10vw;
+    }
+
+    #nav #nav-right #nav-icons {
+        display: none;
+    }
+
+    #nav #nav-right #nav-links i {
+        font-size: 20px;
+    }
+
+    .page1 {
+        height: 80vh;
+    }
+
+    .page1 img{
+        object-position: end;
+    }
+
+    .page2 .upper {
+        height: 30vh;
+    }
+
+    .page2 .upper h1 {
+        font-size: 11vw;
+    }
+
+    .page2 .upper h2 {
+        font-size: 4.5vw;
+        margin-top: 3vw;
+        margin-bottom: -11vw;
+    }
+
+
+    .page3 .upper {
+        height: 30vh;
+    }
+
+    .page3 .upper h1 {
+        font-size: 11vw;
+    }
+
+    .page3 .upper h2 {
+        font-size: 4.5vw;
+        margin-top: 3vw;
+        margin-bottom: -11vw;
+    }
+
+
+    .page3 .blog1 {
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .page3 .blog1 .blogs {
+        width: 100%;
+        margin-left: 5vw;
+    }
+
+    .page3 .blog1 .txt {
+        width: 100%;
+        margin-top: 15vw;
+        justify-content: flex-start;
+    }
+
+    .page3 .blog1 .txt h1 {
+        font-size: 8vw;
+    }
+
+    .page3 .blog1 .txt h3 {
+        width: fit-content;
+        font-size: 3.4vw;
+        font-weight: 400;
+        line-height: 4.2vw;
+    }
+
+
+
+    .page3 .blog2 {
+        height: 60vh;
+        flex-direction: column;
+    }
+
+    .page3 .blog2 .blogs {
+        width: 100%;
+        margin-left: 5vw;
+    }
+
+    .page3 .blog2 .txt {
+        height: 50%;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .page3 .blog2 .txt h1 {
+        font-size: 8vw;
+    }
+
+    .page3 .blog2 .txt h3 {
+        width: fit-content;
+        font-size: 3.4vw;
+        font-weight: 400;
+        line-height: 4.2vw;
+    }
+
+
+
+    .page3 .blog3 {
+        margin-top: 20vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .page3 .blog3 .blogs {
+        width: 100%;
+        margin-left: 5vw;
+    }
+
+    .page3 .blog3 .txt {
+        margin-top: 15vw;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .page3 .blog3 .txt h1 {
+        font-size: 8vw;
+    }
+
+    .page3 .blog3 .txt h3 {
+        width: fit-content;
+        font-size: 3.4vw;
+        font-weight: 400;
+        line-height: 4.2vw;
+    }
+
+    .page4 {
+        min-height: 40vh;
+    }
+
+    .page4 .upper {
+        height: 20vh;
+    }
+
+    .page4 .upper h1 {
+        font-size: 11vw;
+    }
+
+    .page4 .upper h2 {
+        font-size: 4.5vw;
+        text-align: center;
+        margin-top: 3vw;
+        margin-bottom: -11vw;
+    }
+
+    .page4 .down {
+        flex-direction: column;
+    }
+
+    .page4 .down .down-left {
+        width: 100%;
+    }
+
+    .page4 .down .down-right {
+        width: 100%;
+    }
+
+     .page4 .down .down-right .txt {
+        height: 30%;
+        margin-top: 10vw;
+     }
+
+    .page4 .down .down-right .txt h2 {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .page4 .down .down-right .txt h3 {
+        font-size: 3.2vw;
+        text-align: center;
+        width: fit-content;
+    }
+
+    .page4 .end1 {
+        height: 15vh;
+    }
+
+    .page4 .end1 .txt-up h3 {
+        font-size: 3vw;
+    }
+
+    .page4 .end1 .txt-down h3 {
+        font-size: 2.8vw;
+    }
+}
