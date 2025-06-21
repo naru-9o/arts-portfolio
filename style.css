@@ -44,7 +44,7 @@ html, body {
     font-family: c;
     line-height: 3.7vw;
     letter-spacing: -5px;
-    background: linear-gradient(90deg, #0a2342, #19385c, #274d77); /* dark blue tones */
+    background: linear-gradient(90deg, #00c6ff, #0072ff, #3a0ca3); /* dark blue tones */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black; /* fallback */
@@ -67,17 +67,21 @@ html, body {
     font-family: b;
 }
 
-#nav #nav-right #nav-links a {
-    text-decoration: none;
+#nav #nav-right #nav-links .menu-icon {
+    display: none;
 }
 
-#nav-links {
+#nav #nav-right #nav-links .sidebar {
+    display: none;
+}
+
+#nav-links .menu-icon {
     padding: 10px 0;
     border-radius: 50px;
     background-color: #fff;
 }
 
-#nav #nav-right #nav-links i {
+#nav #nav-right #nav-links .menu-icon i {
     font-size: 15px;
     color: #000;
     margin: 0 23px;
@@ -144,7 +148,7 @@ html, body {
 }
 
 .page2 .down {
-  columns: 300px;
+  columns: 350px;
   padding: 25px;
 }
 

@@ -10,8 +10,66 @@
         display: none;
     }
 
-     #nav #nav-right #nav-links i {
-        font-size: 25px;
+
+    #nav #nav-right #nav-links .menu-icon {
+        display: flex;
+        font-size: 50px;
+        cursor: pointer;
+        margin-bottom: 2vw;
+        margin-right: 1vw;
+    }
+
+    #nav #nav-right #nav-links .menu-icon i {
+        font-size: 30px;
+        padding: 8px 15px;
+    }
+
+    
+     #nav #nav-right #nav-links .sidebar {
+        display: flex;
+    }
+    
+
+    /* Sidebar Styles */
+    .sidebar {
+        height: 50vh;
+        width: 0;
+        position: fixed;
+        right: 0;
+        background: rgba(0, 0, 0, 0.6);
+        overflow-x: hidden;
+        transition: 0.4s;
+        padding-top: 60px;
+        z-index: 9999;
+        margin-top: -3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    
+    /* Sidebar Links */
+    .sidebar a {
+        padding: 15px;
+        text-decoration: none;
+        font-size: 35px;
+        font-family: c;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    /* Close Button */
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 60px;
+        font-size: 9vw;
+        color: white;
+        cursor: pointer;
+        font-family: a;
     }
 
     .page2 .upper {
@@ -203,8 +261,65 @@
         display: none;
     }
 
+    #nav #nav-right #nav-links .menu-icon {
+        display: flex;
+        font-size: 30px;
+        cursor: pointer;
+        margin-bottom: 2vw;
+        margin-right: 1vw;
+    }
+    
+     #nav #nav-right #nav-links .sidebar {
+        display: flex;
+    }
+    
+
+    /* Sidebar Styles */
+    .sidebar {
+        height: 50vh;
+        width: 0;
+        position: fixed;
+        right: 0;
+       background: rgba(0, 0, 0, 0.6);
+        overflow-x: hidden;
+        transition: 0.4s;
+        padding-top: 60px;
+        z-index: 9999;
+        margin-top: -9vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    
+    /* Sidebar Links */
+    .sidebar a {
+        padding: 15px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: c;
+        color: white;
+        display: block;
+        margin-right: 15px;
+        transition: 0.3s;
+    }
+    
+    /* Close Button */
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 9vw;
+        color: white;
+        cursor: pointer;
+        font-family: a;
+    }
+
+
     #nav #nav-right #nav-links i {
-        font-size: 20px;
+        font-size: 35px;
     }
 
     .page1 {

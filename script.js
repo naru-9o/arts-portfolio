@@ -52,6 +52,18 @@ navScroll()
 
 
 
+// Function to open sidebar
+function openNav() {
+    document.getElementById("sidebar").style.width = "400px";
+}
+
+// Function to close sidebar
+function closeNav() {
+    document.getElementById("sidebar").style.width = "0";
+}
+
+
+
 const images = document.querySelectorAll('.page2 .down img');
 
 const observer = new IntersectionObserver((entries) => {
