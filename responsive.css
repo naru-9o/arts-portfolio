@@ -182,6 +182,99 @@
         line-height: 4.2vw;
     }
 
+
+    .page-gallery .upper {
+        height: 40vh;
+    }
+
+    .page-gallery .upper h1 {
+        font-size: 8vw;
+    }
+
+    .page-gallery .upper h2 {
+        font-size: 3vw;
+        margin-top: 3vw;
+        margin-bottom: -4vw;
+    }
+
+
+    .page-gallery .mid {
+        height: 50vh;
+    }
+
+
+    .page-gallery .down {
+        height: 120vh;
+    }
+
+    .page-gallery .down .cont {
+        flex-direction: column;
+    }
+
+    .page-gallery .down .cont .txt1 {
+        width: 100%;
+        margin-top: 2vw;
+    }
+
+    .page-gallery .down .cont .txt1 h2 {
+        font-size: 5vw;
+        margin-top: 6vw;
+    }
+
+    .page-gallery .down .cont .txt1 p {
+        font-size: 2.5vw;
+        font-weight: 100;
+        line-height: 3.5vw;
+        margin-top: 2vw;
+    }
+
+    .page-gallery .down .cont .txt2 {
+        width: 100%;
+    }
+
+    .page-gallery .down .cont .txt2 .heading h3 {
+        font-size: 3vw;
+    }
+
+    .page-gallery .down .cont .txt2 .details {
+        margin-top: 3.5vw;
+    }
+
+    .page-gallery .down .cont .txt2 .details i {
+        font-size: 2.8vw;
+    }
+
+    .page-gallery .down .cont .txt2 .details p {
+        font-size: 3vw;
+    }
+
+    .page-gallery .down .cont .txt2 .social {
+        margin-top: 1.4vw;
+    }
+
+    .page-gallery .down .cont .txt2 .social h3 {
+        font-size: 2.9vw;
+    }
+
+    .page-gallery .down .cont .txt2 .social .links i {
+        font-size: 3vw;
+    }
+
+
+    .page-gallery .end .upper {
+        height: 40vh;
+    }
+
+    .page-gallery .end .upper h1 {
+        font-size: 11vw;
+    }
+
+
+    .image-container {
+        margin-left: 3vw;
+    }
+
+
     .page4 .upper {
         height: 40vh;
     }
@@ -244,8 +337,6 @@
 
 
 
-
-
 @media (max-width: 480px){
     
     #nav {
@@ -280,7 +371,7 @@
         width: 0;
         position: fixed;
         right: 0;
-       background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.6);
         overflow-x: hidden;
         transition: 0.4s;
         padding-top: 60px;
@@ -446,12 +537,113 @@
         line-height: 4.2vw;
     }
 
+    .page-gallery {
+        margin-top: -20vw;
+    }
+
+
+    .page-gallery .upper {
+        height: 20vh;
+    }
+
+    .page-gallery .upper h1 {
+        font-size: 11vw;
+    }
+
+    .page-gallery .upper h2 {
+        font-size: 4.5vw;
+        margin-top: 3vw;
+        margin-bottom: -11vw;
+    }
+
+    .page-gallery .mid {
+        height: 30vh;
+    }
+
+    .page-gallery .down {
+        height: 120vh;
+    }
+
+    .page-gallery .down .cont {
+        flex-direction: column;
+    }
+
+    .page-gallery .down .cont .txt1 {
+        width: 100%;
+        margin-top: 2vw;
+    }
+
+    .page-gallery .down .cont .txt1 h2 {
+        font-size: 5vw;
+        margin-top: 6vw;
+    }
+
+    .page-gallery .down .cont .txt1 p {
+        font-size: 3.8vw;
+        font-weight: 100;
+        line-height: 4.2vw;
+        margin-top: 2vw;
+    }
+
+    .page-gallery .down .cont .txt2 {
+        width: 100%;
+    }
+
+    .page-gallery .down .cont .txt2 .heading h3 {
+        font-size: 4vw;
+    }
+
+    .page-gallery .down .cont .txt2 .details {
+        margin-top: 4.5vw;
+    }
+
+    .page-gallery .down .cont .txt2 .details i {
+        font-size: 3.5vw;
+    }
+
+    .page-gallery .down .cont .txt2 .details p {
+        font-size: 3.8vw;
+    }
+
+    .page-gallery .down .cont .txt2 .social {
+        margin-top: 2vw;
+    }
+
+    .page-gallery .down .cont .txt2 .social h3 {
+        font-size: 4vw;
+    }
+
+    .page-gallery .down .cont .txt2 .social .links i {
+        font-size: 3.5vw;
+    }
+
+
+    .page-gallery .end .upper {
+        height: 40vh;
+    }
+
+    .page-gallery .end .upper h1 {
+        font-size: 11vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     .page4 {
         min-height: 40vh;
     }
 
     .page4 .upper {
         height: 20vh;
+        margin-top: 15vw;
     }
 
     .page4 .upper h1 {
